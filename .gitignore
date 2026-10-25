@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+.npm/
+
+# Environment and Secrets
+.env
+*.local
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Model and Cache files
+.cache/
+huggingface/
+sentence_transformers/
+torch_cache/
+
+# Uploads and temporary data
+uploads/
+tmp/
+*.log
+
+# Frontend build
+frontend/dist/
+frontend/build/
